@@ -1,0 +1,5756 @@
+{
+    "Season_1 - Season_1 - ...and the Bag's in the River subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Classroom",
+                "type": "Location"
+            },
+            {
+                "name": "Chemistry Lesson",
+                "type": "Event"
+            },
+            {
+                "name": "Season 1",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "teaches",
+                "target": "Chemistry Lesson",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "works in",
+                "target": "Classroom",
+                "season": 1
+            },
+            {
+                "source": "Chemistry Lesson",
+                "relation": "occurs in",
+                "target": "Classroom",
+                "season": 1
+            },
+            {
+                "source": "Chemistry Lesson",
+                "relation": "is part of",
+                "target": "Season 1",
+                "season": 1
+            }
+        ]
+    },
+    "Season_1 - Season_1 - A No-Rough-Stuff-Type Deal subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "DEA",
+                "type": "Organization"
+            },
+            {
+                "name": "APD",
+                "type": "Organization"
+            },
+            {
+                "name": "Janitor",
+                "type": "Character"
+            },
+            {
+                "name": "School",
+                "type": "Location"
+            },
+            {
+                "name": "Lab Equipment Theft",
+                "type": "Event"
+            },
+            {
+                "name": "Marijuana Possession",
+                "type": "Event"
+            },
+            {
+                "name": "Background Check",
+                "type": "Event"
+            },
+            {
+                "name": "Hiring Policies Review",
+                "type": "Event"
+            },
+            {
+                "name": "Daughter",
+                "type": "Character"
+            },
+            {
+                "name": "Season_1",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "DEA",
+                "relation": "works with",
+                "target": "APD",
+                "season": 1
+            },
+            {
+                "source": "DEA",
+                "relation": "investigates",
+                "target": "Lab Equipment Theft",
+                "season": 1
+            },
+            {
+                "source": "DEA",
+                "relation": "investigates",
+                "target": "Marijuana Possession",
+                "season": 1
+            },
+            {
+                "source": "Janitor",
+                "relation": "works with",
+                "target": "School",
+                "season": 1
+            },
+            {
+                "source": "Janitor",
+                "relation": "arrested for",
+                "target": "Marijuana Possession",
+                "season": 1
+            },
+            {
+                "source": "Janitor",
+                "relation": "fired from",
+                "target": "School",
+                "season": 1
+            },
+            {
+                "source": "School",
+                "relation": "conducts",
+                "target": "Background Check",
+                "season": 1
+            },
+            {
+                "source": "School",
+                "relation": "conducts",
+                "target": "Hiring Policies Review",
+                "season": 1
+            },
+            {
+                "source": "Daughter",
+                "relation": "witnesses",
+                "target": "Janitor",
+                "season": 1
+            },
+            {
+                "source": "Daughter",
+                "relation": "witnesses",
+                "target": "Marijuana Possession",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "works at",
+                "target": "School",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Lab Equipment Theft",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season_1",
+                "season": 1
+            }
+        ]
+    },
+    "Season_1 - Season_1 - Cancer Man subtitles.txt": {
+        "entities": [
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Steve Gomez",
+                "type": "Character"
+            },
+            {
+                "name": "Domingo Gallardo Molina",
+                "type": "Character"
+            },
+            {
+                "name": "Krazy-8",
+                "type": "Character"
+            },
+            {
+                "name": "Emilio Koyama",
+                "type": "Character"
+            },
+            {
+                "name": "Operation Icebreaker",
+                "type": "Event"
+            },
+            {
+                "name": "North Pole",
+                "type": "Location"
+            },
+            {
+                "name": "Stakeout",
+                "type": "Event"
+            },
+            {
+                "name": "Boonies",
+                "type": "Location"
+            },
+            {
+                "name": "Season 1",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Hank Schrader",
+                "relation": "works with",
+                "target": "Steve Gomez",
+                "season": 1
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "participates in",
+                "target": "Operation Icebreaker",
+                "season": 1
+            },
+            {
+                "source": "Steve Gomez",
+                "relation": "participates in",
+                "target": "Operation Icebreaker",
+                "season": 1
+            },
+            {
+                "source": "Steve Gomez",
+                "relation": "appears in",
+                "target": "Stakeout",
+                "season": 1
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "appears in",
+                "target": "Stakeout",
+                "season": 1
+            },
+            {
+                "source": "Krazy-8",
+                "relation": "is central to",
+                "target": "Operation Icebreaker",
+                "season": 1
+            },
+            {
+                "source": "Krazy-8",
+                "relation": "related to",
+                "target": "Emilio Koyama",
+                "season": 1
+            },
+            {
+                "source": "Emilio Koyama",
+                "relation": "ratted out by",
+                "target": "Krazy-8",
+                "season": 1
+            },
+            {
+                "source": "Krazy-8",
+                "relation": "missing in",
+                "target": "Boonies",
+                "season": 1
+            },
+            {
+                "source": "Krazy-8",
+                "relation": "presumed dead in",
+                "target": "Boonies",
+                "season": 1
+            },
+            {
+                "source": "Emilio Koyama",
+                "relation": "suspected revenge against",
+                "target": "Krazy-8",
+                "season": 1
+            }
+        ]
+    },
+    "Season_1 - Season_1 - Cat's in the Bag... subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "RV",
+                "type": "Location"
+            },
+            {
+                "name": "Ditch",
+                "type": "Location"
+            },
+            {
+                "name": "Coffee Mug",
+                "type": "Object"
+            },
+            {
+                "name": "Sony GPS",
+                "type": "Object"
+            },
+            {
+                "name": "Bodies",
+                "type": "Object"
+            },
+            {
+                "name": "Season_1",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Ditch",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "owns",
+                "target": "RV",
+                "season": 1
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "visits",
+                "target": "Ditch",
+                "season": 1
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "owns",
+                "target": "RV",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "spills",
+                "target": "Coffee Mug",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "uses",
+                "target": "Sony GPS",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "causes",
+                "target": "Bodies",
+                "season": 1
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "causes",
+                "target": "Bodies",
+                "season": 1
+            },
+            {
+                "source": "RV",
+                "relation": "part of",
+                "target": "Season_1",
+                "season": 1
+            },
+            {
+                "source": "Ditch",
+                "relation": "part of",
+                "target": "Season_1",
+                "season": 1
+            },
+            {
+                "source": "Coffee Mug",
+                "relation": "part of",
+                "target": "Season_1",
+                "season": 1
+            },
+            {
+                "source": "Sony GPS",
+                "relation": "part of",
+                "target": "Season_1",
+                "season": 1
+            },
+            {
+                "source": "Bodies",
+                "relation": "part of",
+                "target": "Season_1",
+                "season": 1
+            }
+        ]
+    },
+    "Season_1 - Season_1 - Crazy Handful of Nothin' subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Elliott",
+                "type": "Character"
+            },
+            {
+                "name": "Crazy Handful of Nothin'",
+                "type": "Event"
+            },
+            {
+                "name": "Season 1",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Skyler White",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "father of",
+                "target": "Walter Jr.",
+                "season": 1
+            },
+            {
+                "source": "Skyler White",
+                "relation": "mother of",
+                "target": "Walter Jr.",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Elliott",
+                "season": 1
+            },
+            {
+                "source": "Crazy Handful of Nothin'",
+                "relation": "is central to",
+                "target": "Season 1",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Crazy Handful of Nothin'",
+                "season": 1
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "appears in",
+                "target": "Crazy Handful of Nothin'",
+                "season": 1
+            },
+            {
+                "source": "Skyler White",
+                "relation": "appears in",
+                "target": "Crazy Handful of Nothin'",
+                "season": 1
+            }
+        ]
+    },
+    "Season_1 - Season_1 - Gray Matter subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Badger Mayhew",
+                "type": "Character"
+            },
+            {
+                "name": "Job Interview Location",
+                "type": "Location"
+            },
+            {
+                "name": "Job Interview",
+                "type": "Event"
+            },
+            {
+                "name": "Season 1",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Job Interview",
+                "season": 1
+            },
+            {
+                "source": "Job Interview",
+                "relation": "occurs at",
+                "target": "Job Interview Location",
+                "season": 1
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "visits",
+                "target": "Walter White",
+                "season": 1
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "friend of",
+                "target": "Badger Mayhew",
+                "season": 1
+            },
+            {
+                "source": "Badger Mayhew",
+                "relation": "visits",
+                "target": "Jesse Pinkman",
+                "season": 1
+            },
+            {
+                "source": "Badger Mayhew",
+                "relation": "friend of",
+                "target": "Jesse Pinkman",
+                "season": 1
+            }
+        ]
+    },
+    "Season_1 - Season_1 - Pilot subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104",
+                "type": "Location"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Season 1",
+                "type": "Season"
+            },
+            {
+                "name": "Pilot Episode",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "married to",
+                "target": "Skyler White",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "father of",
+                "target": "Walter Jr.",
+                "season": 1
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Pilot Episode",
+                "season": 1
+            },
+            {
+                "source": "Skyler White",
+                "relation": "appears in",
+                "target": "Pilot Episode",
+                "season": 1
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "appears in",
+                "target": "Pilot Episode",
+                "season": 1
+            },
+            {
+                "source": "Pilot Episode",
+                "relation": "is central to",
+                "target": "Season 1",
+                "season": 1
+            }
+        ]
+    },
+    "Season_2 - Season_2 - 4 Days Out subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Kleinman",
+                "type": "Character"
+            },
+            {
+                "name": "Technician",
+                "type": "Character"
+            },
+            {
+                "name": "Hospital",
+                "type": "Location"
+            },
+            {
+                "name": "PETICT Scan",
+                "type": "Event"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "PETICT Scan",
+                "season": 2
+            },
+            {
+                "source": "Technician",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Technician",
+                "relation": "works with",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Kleinman",
+                "relation": "works with",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Kleinman",
+                "relation": "competes with",
+                "target": "Technician",
+                "season": 2
+            },
+            {
+                "source": "Technician",
+                "relation": "causes",
+                "target": "PETICT Scan",
+                "season": 2
+            },
+            {
+                "source": "Hospital",
+                "relation": "part of",
+                "target": "Season 2",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - ABQ subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Saul Goodman",
+                "type": "Character"
+            },
+            {
+                "name": "Jane Margolis",
+                "type": "Character"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            },
+            {
+                "name": "Jesse's House",
+                "type": "Location"
+            },
+            {
+                "name": "Jane's Overdose",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Jesse's House",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "witnesses",
+                "target": "Jane's Overdose",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "lives in",
+                "target": "Jesse's House",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "witnesses",
+                "target": "Jane's Overdose",
+                "season": 2
+            },
+            {
+                "source": "Saul Goodman",
+                "relation": "sends",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Jane Margolis",
+                "relation": "participates in",
+                "target": "Jane's Overdose",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Better Call Saul subtitles.txt": {
+        "entities": [
+            {
+                "name": "Duke City Flowers",
+                "type": "Location"
+            },
+            {
+                "name": "Brown Van",
+                "type": "Location"
+            },
+            {
+                "name": "Dude (Potential Buyer)",
+                "type": "Character"
+            },
+            {
+                "name": "Seller (Potential Dealer)",
+                "type": "Character"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Dude (Potential Buyer)",
+                "relation": "asks",
+                "target": "Seller (Potential Dealer)",
+                "season": 2
+            },
+            {
+                "source": "Dude (Potential Buyer)",
+                "relation": "suspects",
+                "target": "Brown Van",
+                "season": 2
+            },
+            {
+                "source": "Dude (Potential Buyer)",
+                "relation": "suspects",
+                "target": "Duke City Flowers",
+                "season": 2
+            },
+            {
+                "source": "Seller (Potential Dealer)",
+                "relation": "denies",
+                "target": "Dude (Potential Buyer)",
+                "season": 2
+            },
+            {
+                "source": "Dude (Potential Buyer)",
+                "relation": "suggests",
+                "target": "Seller (Potential Dealer)",
+                "season": 2
+            },
+            {
+                "source": "Dude (Potential Buyer)",
+                "relation": "proposes",
+                "target": "Garbage Truck",
+                "season": 2
+            },
+            {
+                "source": "Dude (Potential Buyer)",
+                "relation": "demands",
+                "target": "Seller (Potential Dealer)",
+                "season": 2
+            },
+            {
+                "source": "Seller (Potential Dealer)",
+                "relation": "refuses",
+                "target": "Dude (Potential Buyer)",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Bit by a Dead Bee subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Hospital",
+                "type": "Location"
+            },
+            {
+                "name": "Drug Dealer",
+                "type": "Character"
+            },
+            {
+                "name": "Shootout",
+                "type": "Event"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "son of",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "father of",
+                "target": "Walter Jr.",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "brother-in-law of",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "uncle of",
+                "target": "Walter Jr.",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "participates in",
+                "target": "Shootout",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "kills",
+                "target": "Drug Dealer",
+                "season": 2
+            },
+            {
+                "source": "Drug Dealer",
+                "relation": "killed by",
+                "target": "Hank Schrader",
+                "season": 2
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "witnesses",
+                "target": "Shootout",
+                "season": 2
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "worries about",
+                "target": "Hank Schrader",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "worries about",
+                "target": "Hank Schrader",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Breakage subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Doctor",
+                "type": "Character"
+            },
+            {
+                "name": "Hospital",
+                "type": "Location"
+            },
+            {
+                "name": "Baby's Due Date",
+                "type": "Event"
+            },
+            {
+                "name": "Payment Plan Discussion",
+                "type": "Event"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Baby's Due Date",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Doctor",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "participates in",
+                "target": "Baby's Due Date",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Payment Plan Discussion",
+                "season": 2
+            },
+            {
+                "source": "Doctor",
+                "relation": "participates in",
+                "target": "Payment Plan Discussion",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season 2",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "appears in",
+                "target": "Season 2",
+                "season": 2
+            },
+            {
+                "source": "Doctor",
+                "relation": "appears in",
+                "target": "Season 2",
+                "season": 2
+            },
+            {
+                "source": "Hospital",
+                "relation": "part of",
+                "target": "Season 2",
+                "season": 2
+            },
+            {
+                "source": "Baby's Due Date",
+                "relation": "part of",
+                "target": "Season 2",
+                "season": 2
+            },
+            {
+                "source": "Payment Plan Discussion",
+                "relation": "part of",
+                "target": "Season 2",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Down subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Tuco Salamanca",
+                "type": "Character"
+            },
+            {
+                "name": "Family Ordeal",
+                "type": "Event"
+            },
+            {
+                "name": "Cooking Meth",
+                "type": "Event"
+            },
+            {
+                "name": "Settling Down",
+                "type": "Event"
+            },
+            {
+                "name": "Mending Fences",
+                "type": "Event"
+            },
+            {
+                "name": "Money Dispute",
+                "type": "Event"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Hank Schrader",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Family Ordeal",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Cooking Meth",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Settling Down",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Mending Fences",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Money Dispute",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Cooking Meth",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Money Dispute",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "enemy of",
+                "target": "Tuco Salamanca",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "enemy of",
+                "target": "Jesse Pinkman",
+                "season": 2
+            },
+            {
+                "source": "Family Ordeal",
+                "relation": "is central to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Cooking Meth",
+                "relation": "is central to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Cooking Meth",
+                "relation": "is central to",
+                "target": "Jesse Pinkman",
+                "season": 2
+            },
+            {
+                "source": "Settling Down",
+                "relation": "is central to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Mending Fences",
+                "relation": "is central to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Money Dispute",
+                "relation": "is central to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Money Dispute",
+                "relation": "is central to",
+                "target": "Jesse Pinkman",
+                "season": 2
+            },
+            {
+                "source": "Season 2",
+                "relation": "develops",
+                "target": "Cooking Meth",
+                "season": 2
+            },
+            {
+                "source": "Season 2",
+                "relation": "develops",
+                "target": "Money Dispute",
+                "season": 2
+            },
+            {
+                "source": "Season 2",
+                "relation": "develops",
+                "target": "Settling Down",
+                "season": 2
+            },
+            {
+                "source": "Season 2",
+                "relation": "develops",
+                "target": "Mending Fences",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Grilled subtitles.txt": {
+        "entities": [
+            {
+                "name": "Tuco Salamanca",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Tuco's headquarters",
+                "type": "Location"
+            },
+            {
+                "name": "Tuco's last-known address",
+                "type": "Location"
+            },
+            {
+                "name": "Tuco's meth-hag girlfriend's den",
+                "type": "Location"
+            },
+            {
+                "name": "Tuco's lieutenants",
+                "type": "Character"
+            },
+            {
+                "name": "Dog Paulson",
+                "type": "Character"
+            },
+            {
+                "name": "SoCal biker gangs",
+                "type": "Character"
+            },
+            {
+                "name": "Mexican national",
+                "type": "Character"
+            },
+            {
+                "name": "Krazy-8",
+                "type": "Character"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Hank Schrader",
+                "relation": "works with",
+                "target": "Tuco's lieutenants",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "raids",
+                "target": "Tuco's headquarters",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "raids",
+                "target": "Tuco's last-known address",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "raids",
+                "target": "Tuco's meth-hag girlfriend's den",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "enemy of",
+                "target": "Hank Schrader",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "works with",
+                "target": "Tuco's lieutenants",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "kills",
+                "target": "Dog Paulson",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "kills",
+                "target": "Mexican national",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "suspected of",
+                "target": "Krazy-8's disappearance",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "participates in",
+                "target": "Season 2",
+                "season": 2
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "participates in",
+                "target": "Season 2",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Mandala subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "2nd and Hazeltine",
+                "type": "Location"
+            },
+            {
+                "name": "Skinny Pete",
+                "type": "Character"
+            },
+            {
+                "name": "Dr. Bravenec",
+                "type": "Character"
+            },
+            {
+                "name": "Lobectomy",
+                "type": "Event"
+            },
+            {
+                "name": "Cancer Treatment",
+                "type": "Event"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Jesse Pinkman",
+                "relation": "calls",
+                "target": "Skinny Pete",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "visits",
+                "target": "2nd and Hazeltine",
+                "season": 2
+            },
+            {
+                "source": "Skinny Pete",
+                "relation": "friend of",
+                "target": "Jesse Pinkman",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Cancer Treatment",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Lobectomy",
+                "season": 2
+            },
+            {
+                "source": "Dr. Bravenec",
+                "relation": "participates in",
+                "target": "Lobectomy",
+                "season": 2
+            },
+            {
+                "source": "Lobectomy",
+                "relation": "part of",
+                "target": "Cancer Treatment",
+                "season": 2
+            },
+            {
+                "source": "Cancer Treatment",
+                "relation": "is central to",
+                "target": "Season 2",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Negro y Azul subtitles.txt": {
+        "entities": [
+            {
+                "name": "Heisenberg",
+                "type": "Character"
+            },
+            {
+                "name": "New Mexico",
+                "type": "Location"
+            },
+            {
+                "name": "Duke",
+                "type": "Location"
+            },
+            {
+                "name": "Cartel",
+                "type": "Character"
+            },
+            {
+                "name": "Michoacan",
+                "type": "Location"
+            },
+            {
+                "name": "Blue Meth",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Heisenberg",
+                "relation": "owns",
+                "target": "Blue Meth",
+                "season": 2
+            },
+            {
+                "source": "Heisenberg",
+                "relation": "lives in",
+                "target": "New Mexico",
+                "season": 2
+            },
+            {
+                "source": "Heisenberg",
+                "relation": "enemy of",
+                "target": "Cartel",
+                "season": 2
+            },
+            {
+                "source": "Blue Meth",
+                "relation": "runs through",
+                "target": "New Mexico",
+                "season": 2
+            },
+            {
+                "source": "Blue Meth",
+                "relation": "travels to",
+                "target": "Michoacan",
+                "season": 2
+            },
+            {
+                "source": "Cartel",
+                "relation": "wants to",
+                "target": "Heisenberg",
+                "season": 2
+            },
+            {
+                "source": "Cartel",
+                "relation": "runs hot because",
+                "target": "Blue Meth",
+                "season": 2
+            },
+            {
+                "source": "New Mexico",
+                "relation": "is like",
+                "target": "Mexico",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Over subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr. (Flynn White)",
+                "type": "Character"
+            },
+            {
+                "name": "Sunday Afternoon Party",
+                "type": "Event"
+            },
+            {
+                "name": "Radiation Pneumonitis",
+                "type": "Event"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Skyler White",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Walter Jr. (Flynn White)",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Walter Jr. (Flynn White)",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "causes",
+                "target": "Sunday Afternoon Party",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Sunday Afternoon Party",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "develops",
+                "target": "Radiation Pneumonitis",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Peekaboo subtitles.txt": {
+        "entities": [
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Spooge",
+                "type": "Character"
+            },
+            {
+                "name": "Spooge's Woman",
+                "type": "Character"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Jesse Pinkman",
+                "relation": "witnesses",
+                "target": "Spooge",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "witnesses",
+                "target": "Spooge's Woman",
+                "season": 2
+            },
+            {
+                "source": "Spooge",
+                "relation": "related to",
+                "target": "Spooge's Woman",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "causes",
+                "target": "Spooge",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "causes",
+                "target": "Spooge's Woman",
+                "season": 2
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Season 2",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Phoenix subtitles.txt": {
+        "entities": [
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Marie Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Holly White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Ted Beneke",
+                "type": "Character"
+            },
+            {
+                "name": "40",
+                "type": "Location"
+            },
+            {
+                "name": "Hospital",
+                "type": "Location"
+            },
+            {
+                "name": "Season_2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Marie Schrader",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "married to",
+                "target": "Walter White",
+                "season": 2
+            },
+            {
+                "source": "Holly White",
+                "relation": "participates in",
+                "target": "Birth of Holly White",
+                "season": 2
+            },
+            {
+                "source": "Ted Beneke",
+                "relation": "works with",
+                "target": "Skyler White",
+                "season": 2
+            },
+            {
+                "source": "Ted Beneke",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "lives in",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "participates in",
+                "target": "Birth of Holly White",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Birth of Holly White",
+                "season": 2
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season_2",
+                "season": 2
+            },
+            {
+                "source": "Skyler White",
+                "relation": "appears in",
+                "target": "Season_2",
+                "season": 2
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "appears in",
+                "target": "Season_2",
+                "season": 2
+            },
+            {
+                "source": "Ted Beneke",
+                "relation": "appears in",
+                "target": "Season_2",
+                "season": 2
+            },
+            {
+                "source": "Holly White",
+                "relation": "appears in",
+                "target": "Season_2",
+                "season": 2
+            }
+        ]
+    },
+    "Season_2 - Season_2 - Seven Thirty-Seven subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White (Heisenberg)",
+                "type": "Character"
+            },
+            {
+                "name": "Tuco Salamanca",
+                "type": "Character"
+            },
+            {
+                "name": "Seven Thirty-Seven",
+                "type": "Event"
+            },
+            {
+                "name": "Season 2",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White (Heisenberg)",
+                "relation": "works with",
+                "target": "Tuco Salamanca",
+                "season": 2
+            },
+            {
+                "source": "Walter White (Heisenberg)",
+                "relation": "introduces",
+                "target": "Seven Thirty-Seven",
+                "season": 2
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "participates in",
+                "target": "Seven Thirty-Seven",
+                "season": 2
+            },
+            {
+                "source": "Seven Thirty-Seven",
+                "relation": "is central to",
+                "target": "Season 2",
+                "season": 2
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Abiqui%C3%BA subtitles.txt": {
+        "entities": [
+            {
+                "name": "Georgia O'Keeffe",
+                "type": "Character"
+            },
+            {
+                "name": "Door",
+                "type": "Location"
+            },
+            {
+                "name": "Discussion about Georgia O'Keeffe's paintings",
+                "type": "Event"
+            },
+            {
+                "name": "Season_3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Georgia O'Keeffe",
+                "relation": "paints",
+                "target": "Door",
+                "season": 3
+            },
+            {
+                "source": "Characters",
+                "relation": "discuss",
+                "target": "Discussion about Georgia O'Keeffe's paintings",
+                "season": 3
+            },
+            {
+                "source": "Discussion about Georgia O'Keeffe's paintings",
+                "relation": "occurs in",
+                "target": "Season_3",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Caballo Sin Nombre subtitles.txt": {
+        "entities": [
+            {
+                "name": "Officer",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Wayfarer 515",
+                "type": "Event"
+            },
+            {
+                "name": "Debris Field",
+                "type": "Location"
+            },
+            {
+                "name": "Car",
+                "type": "Location"
+            },
+            {
+                "name": "Plane Crash",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Officer",
+                "relation": "pulls over",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "witnesses",
+                "target": "Plane Crash",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "was in",
+                "target": "Debris Field",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "owns",
+                "target": "Car",
+                "season": 3
+            },
+            {
+                "source": "Wayfarer 515",
+                "relation": "is central to",
+                "target": "Plane Crash",
+                "season": 3
+            },
+            {
+                "source": "Officer",
+                "relation": "cites",
+                "target": "Walter White",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Fly subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Fly",
+                "type": "Event"
+            },
+            {
+                "name": "Methamphetamine Lab",
+                "type": "Location"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Methamphetamine Lab",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "visits",
+                "target": "Methamphetamine Lab",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Fly",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Fly",
+                "season": 3
+            },
+            {
+                "source": "Fly",
+                "relation": "is central to",
+                "target": "Season 3",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Full Measure subtitles.txt": {
+        "entities": [
+            {
+                "name": "Stan",
+                "type": "Character"
+            },
+            {
+                "name": "Walt",
+                "type": "Character"
+            },
+            {
+                "name": "Sandia Laboratories",
+                "type": "Location"
+            },
+            {
+                "name": "House Tour",
+                "type": "Event"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Stan",
+                "relation": "meets",
+                "target": "Walt",
+                "season": 3
+            },
+            {
+                "source": "Stan",
+                "relation": "works with",
+                "target": "Sandia Laboratories",
+                "season": 3
+            },
+            {
+                "source": "Walt",
+                "relation": "visits",
+                "target": "House Tour",
+                "season": 3
+            },
+            {
+                "source": "Stan",
+                "relation": "gives",
+                "target": "House Tour",
+                "season": 3
+            },
+            {
+                "source": "House Tour",
+                "relation": "part of",
+                "target": "Season 3",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Green Light subtitles.txt": {
+        "entities": [
+            {
+                "name": "ATM",
+                "type": "Location"
+            },
+            {
+                "name": "Bank",
+                "type": "Location"
+            },
+            {
+                "name": "Fallujah",
+                "type": "Location"
+            },
+            {
+                "name": "Dad",
+                "type": "Character"
+            },
+            {
+                "name": "Cashier",
+                "type": "Character"
+            },
+            {
+                "name": "Customer",
+                "type": "Character"
+            },
+            {
+                "name": "Personal Cheque",
+                "type": "Event"
+            },
+            {
+                "name": "Drug Offer",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Customer",
+                "relation": "visits",
+                "target": "Bank",
+                "season": 3
+            },
+            {
+                "source": "Customer",
+                "relation": "witnesses",
+                "target": "Personal Cheque",
+                "season": 3
+            },
+            {
+                "source": "Customer",
+                "relation": "offers",
+                "target": "Drug Offer",
+                "season": 3
+            },
+            {
+                "source": "Cashier",
+                "relation": "works with",
+                "target": "Bank",
+                "season": 3
+            },
+            {
+                "source": "Dad",
+                "relation": "related to",
+                "target": "Customer",
+                "season": 3
+            },
+            {
+                "source": "Dad",
+                "relation": "visits",
+                "target": "Fallujah",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Half Measures subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.'s Sister",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.'s Driving Test",
+                "type": "Event"
+            },
+            {
+                "name": "Home",
+                "type": "Location"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter Jr.",
+                "relation": "lives in",
+                "target": "Home",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "related to",
+                "target": "Walter Jr.'s Sister",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "participates in",
+                "target": "Walter Jr.'s Driving Test",
+                "season": 3
+            },
+            {
+                "source": "Skyler White",
+                "relation": "lives in",
+                "target": "Home",
+                "season": 3
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Walter Jr.",
+                "season": 3
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Walter Jr.'s Sister",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Home",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Walter Jr.",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Walter Jr.'s Sister",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.'s Sister",
+                "relation": "lives in",
+                "target": "Home",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.'s Sister",
+                "relation": "related to",
+                "target": "Walter Jr.",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.'s Sister",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.'s Sister",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.'s Driving Test",
+                "relation": "occurs in",
+                "target": "Season 3",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - I See You subtitles.txt": {
+        "entities": [
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Hospital",
+                "type": "Location"
+            },
+            {
+                "name": "Emergency Room",
+                "type": "Location"
+            },
+            {
+                "name": "Operating Room 1",
+                "type": "Location"
+            },
+            {
+                "name": "Male, Caucasian. Early 40s",
+                "type": "Character"
+            },
+            {
+                "name": "Medical Team",
+                "type": "Character"
+            },
+            {
+                "name": "Ambulance",
+                "type": "Location"
+            },
+            {
+                "name": "Gunshot Victim",
+                "type": "Character"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Jesse Pinkman",
+                "relation": "visits",
+                "target": "Hospital",
+                "season": 3
+            },
+            {
+                "source": "Medical Team",
+                "relation": "works with",
+                "target": "Emergency Room",
+                "season": 3
+            },
+            {
+                "source": "Medical Team",
+                "relation": "treats",
+                "target": "Gunshot Victim",
+                "season": 3
+            },
+            {
+                "source": "Gunshot Victim",
+                "relation": "participates in",
+                "target": "Emergency Room",
+                "season": 3
+            },
+            {
+                "source": "Medical Team",
+                "relation": "moves to",
+                "target": "Operating Room 1",
+                "season": 3
+            },
+            {
+                "source": "Gunshot Victim",
+                "relation": "moves to",
+                "target": "Operating Room 1",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "witnesses",
+                "target": "Emergency Room",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "appears in",
+                "target": "Season 3",
+                "season": 3
+            },
+            {
+                "source": "Medical Team",
+                "relation": "appears in",
+                "target": "Season 3",
+                "season": 3
+            },
+            {
+                "source": "Gunshot Victim",
+                "relation": "appears in",
+                "target": "Season 3",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - I.F.T. subtitles.txt": {
+        "entities": [
+            {
+                "name": "Tortuga",
+                "type": "Character"
+            },
+            {
+                "name": "Boss",
+                "type": "Character"
+            },
+            {
+                "name": "Burro's Asshole of a Town",
+                "type": "Location"
+            },
+            {
+                "name": "I.F.T.",
+                "type": "Event"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Tortuga",
+                "relation": "works with",
+                "target": "Boss",
+                "season": 3
+            },
+            {
+                "source": "Tortuga",
+                "relation": "visits",
+                "target": "Burro's Asshole of a Town",
+                "season": 3
+            },
+            {
+                "source": "Boss",
+                "relation": "visits",
+                "target": "Burro's Asshole of a Town",
+                "season": 3
+            },
+            {
+                "source": "Boss",
+                "relation": "participates in",
+                "target": "I.F.T.",
+                "season": 3
+            },
+            {
+                "source": "Tortuga",
+                "relation": "participates in",
+                "target": "I.F.T.",
+                "season": 3
+            },
+            {
+                "source": "I.F.T.",
+                "relation": "is central to",
+                "target": "Season 3",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Kafkaesque subtitles.txt": {
+        "entities": [
+            {
+                "name": "Los Pollos Hermanos",
+                "type": "Location"
+            },
+            {
+                "name": "Gus Fring",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Village",
+                "type": "Location"
+            },
+            {
+                "name": "Two-oh-one-point-six",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Gus Fring",
+                "relation": "owns",
+                "target": "Los Pollos Hermanos",
+                "season": 3
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "participates in",
+                "target": "Two-oh-one-point-six",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Two-oh-one-point-six",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Two-oh-one-point-six",
+                "season": 3
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 3
+            },
+            {
+                "source": "Village",
+                "relation": "part of",
+                "target": "Los Pollos Hermanos",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - M%C3%A1s subtitles.txt": {
+        "entities": [
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "RV",
+                "type": "Location"
+            },
+            {
+                "name": "Two fine ladies",
+                "type": "Character"
+            },
+            {
+                "name": "Champagne",
+                "type": "Event"
+            },
+            {
+                "name": "James Bond",
+                "type": "Character"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Jesse Pinkman",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "buys",
+                "target": "RV",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "introduces",
+                "target": "Two fine ladies",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Champagne",
+                "season": 3
+            },
+            {
+                "source": "Two fine ladies",
+                "relation": "participates in",
+                "target": "Champagne",
+                "season": 3
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "witnesses",
+                "target": "James Bond",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - No M%C3%A1s subtitles.txt": {
+        "entities": [
+            {
+                "name": "Albuquerque's east side",
+                "type": "Location"
+            },
+            {
+                "name": "KOB",
+                "type": "Organization"
+            },
+            {
+                "name": "National Transportation Safety Board",
+                "type": "Organization"
+            },
+            {
+                "name": "FAA",
+                "type": "Organization"
+            },
+            {
+                "name": "Boeing 737",
+                "type": "Event"
+            },
+            {
+                "name": "King Air 350",
+                "type": "Event"
+            },
+            {
+                "name": "St. George, Utah",
+                "type": "Location"
+            },
+            {
+                "name": "Amarillo, Texas",
+                "type": "Location"
+            },
+            {
+                "name": "Crash investigators",
+                "type": "Character"
+            },
+            {
+                "name": "Callers",
+                "type": "Character"
+            },
+            {
+                "name": "Neighbourhood",
+                "type": "Location"
+            },
+            {
+                "name": "Explosion",
+                "type": "Event"
+            },
+            {
+                "name": "Falling debris",
+                "type": "Event"
+            },
+            {
+                "name": "Debris field",
+                "type": "Location"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Albuquerque's east side",
+                "relation": "is central to",
+                "target": "Boeing 737",
+                "season": 3
+            },
+            {
+                "source": "Albuquerque's east side",
+                "relation": "is central to",
+                "target": "King Air 350",
+                "season": 3
+            },
+            {
+                "source": "KOB",
+                "relation": "receives reports from",
+                "target": "Callers",
+                "season": 3
+            },
+            {
+                "source": "Callers",
+                "relation": "witnesses",
+                "target": "Explosion",
+                "season": 3
+            },
+            {
+                "source": "Callers",
+                "relation": "witnesses",
+                "target": "Falling debris",
+                "season": 3
+            },
+            {
+                "source": "National Transportation Safety Board",
+                "relation": "visits",
+                "target": "Albuquerque's east side",
+                "season": 3
+            },
+            {
+                "source": "FAA",
+                "relation": "provides information about",
+                "target": "Boeing 737",
+                "season": 3
+            },
+            {
+                "source": "FAA",
+                "relation": "provides information about",
+                "target": "King Air 350",
+                "season": 3
+            },
+            {
+                "source": "Boeing 737",
+                "relation": "part of",
+                "target": "Debris field",
+                "season": 3
+            },
+            {
+                "source": "King Air 350",
+                "relation": "part of",
+                "target": "Debris field",
+                "season": 3
+            },
+            {
+                "source": "King Air 350",
+                "relation": "operates out of",
+                "target": "St. George, Utah",
+                "season": 3
+            },
+            {
+                "source": "King Air 350",
+                "relation": "is bound for",
+                "target": "Amarillo, Texas",
+                "season": 3
+            },
+            {
+                "source": "Neighbourhood",
+                "relation": "experiences",
+                "target": "Falling debris",
+                "season": 3
+            },
+            {
+                "source": "Explosion",
+                "relation": "causes",
+                "target": "Falling debris",
+                "season": 3
+            },
+            {
+                "source": "Season 3",
+                "relation": "develops",
+                "target": "Boeing 737",
+                "season": 3
+            },
+            {
+                "source": "Season 3",
+                "relation": "develops",
+                "target": "King Air 350",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - One Minute subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Gustavo 'Gus' Fring",
+                "type": "Character"
+            },
+            {
+                "name": "Hector Salamanca",
+                "type": "Character"
+            },
+            {
+                "name": "Tuco Salamanca",
+                "type": "Character"
+            },
+            {
+                "name": "Marco",
+                "type": "Character"
+            },
+            {
+                "name": "Saul Goodman",
+                "type": "Character"
+            },
+            {
+                "name": "Saul Goodman's Office",
+                "type": "Location"
+            },
+            {
+                "name": "Season 3",
+                "type": "Season"
+            },
+            {
+                "name": "Interrogation",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Gustavo 'Gus' Fring",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "enemy of",
+                "target": "Hector Salamanca",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "enemy of",
+                "target": "Tuco Salamanca",
+                "season": 3
+            },
+            {
+                "source": "Hector Salamanca",
+                "relation": "uncle of",
+                "target": "Tuco Salamanca",
+                "season": 3
+            },
+            {
+                "source": "Hector Salamanca",
+                "relation": "enemy of",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Tuco Salamanca",
+                "relation": "enemy of",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Marco",
+                "relation": "related to",
+                "target": "Tuco Salamanca",
+                "season": 3
+            },
+            {
+                "source": "Marco",
+                "relation": "works with",
+                "target": "Hector Salamanca",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "calls",
+                "target": "Saul Goodman",
+                "season": 3
+            },
+            {
+                "source": "Saul Goodman",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Interrogation",
+                "season": 3
+            },
+            {
+                "source": "Interrogation",
+                "relation": "occurs in",
+                "target": "Saul Goodman's Office",
+                "season": 3
+            }
+        ]
+    },
+    "Season_3 - Season_3 - Sunset subtitles.txt": {
+        "entities": [
+            {
+                "name": "Bobby",
+                "type": "Character"
+            },
+            {
+                "name": "Mrs. Peyketewa",
+                "type": "Character"
+            },
+            {
+                "name": "KDK-12",
+                "type": "Character"
+            },
+            {
+                "name": "Janet",
+                "type": "Character"
+            },
+            {
+                "name": "Miss Peyketewa",
+                "type": "Character"
+            },
+            {
+                "name": "California",
+                "type": "Location"
+            },
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Homicide",
+                "type": "Event"
+            },
+            {
+                "name": "Season_3",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Bobby",
+                "relation": "works with",
+                "target": "KDK-12",
+                "season": 3
+            },
+            {
+                "source": "Mrs. Peyketewa",
+                "relation": "related to",
+                "target": "Miss Peyketewa",
+                "season": 3
+            },
+            {
+                "source": "KDK-12",
+                "relation": "visits",
+                "target": "Mrs. Peyketewa",
+                "season": 3
+            },
+            {
+                "source": "KDK-12",
+                "relation": "witnesses",
+                "target": "Homicide",
+                "season": 3
+            },
+            {
+                "source": "Janet",
+                "relation": "works with",
+                "target": "KDK-12",
+                "season": 3
+            },
+            {
+                "source": "Miss Peyketewa",
+                "relation": "lives in",
+                "target": "California",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "married to",
+                "target": "Skyler White",
+                "season": 3
+            },
+            {
+                "source": "Walter White",
+                "relation": "father of",
+                "target": "Walter Jr.",
+                "season": 3
+            },
+            {
+                "source": "Skyler White",
+                "relation": "mother of",
+                "target": "Walter Jr.",
+                "season": 3
+            },
+            {
+                "source": "Skyler White",
+                "relation": "divorces",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "son of",
+                "target": "Walter White",
+                "season": 3
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "son of",
+                "target": "Skyler White",
+                "season": 3
+            },
+            {
+                "source": "Homicide",
+                "relation": "is central to",
+                "target": "Season_3",
+                "season": 3
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Box Cutter subtitles.txt": {
+        "entities": [
+            {
+                "name": "Gale",
+                "type": "Character"
+            },
+            {
+                "name": "Victor",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Gus Fring",
+                "type": "Character"
+            },
+            {
+                "name": "Meth Lab",
+                "type": "Location"
+            },
+            {
+                "name": "Sample Analysis",
+                "type": "Event"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Gale",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Gale",
+                "relation": "works with",
+                "target": "Gus Fring",
+                "season": 4
+            },
+            {
+                "source": "Victor",
+                "relation": "works with",
+                "target": "Gale",
+                "season": 4
+            },
+            {
+                "source": "Victor",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Victor",
+                "relation": "works with",
+                "target": "Gus Fring",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Gus Fring",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Sample Analysis",
+                "season": 4
+            },
+            {
+                "source": "Gale",
+                "relation": "participates in",
+                "target": "Sample Analysis",
+                "season": 4
+            },
+            {
+                "source": "Victor",
+                "relation": "participates in",
+                "target": "Sample Analysis",
+                "season": 4
+            },
+            {
+                "source": "Sample Analysis",
+                "relation": "occurs in",
+                "target": "Meth Lab",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "owns",
+                "target": "Meth Lab",
+                "season": 4
+            },
+            {
+                "source": "W alter White",
+                "relation": "visits",
+                "target": "Meth Lab",
+                "season": 4
+            },
+            {
+                "source": "Gale",
+                "relation": "visits",
+                "target": "Meth Lab",
+                "season": 4
+            },
+            {
+                "source": "Victor",
+                "relation": "visits",
+                "target": "Meth Lab",
+                "season": 4
+            },
+            {
+                "source": "Box Cutter",
+                "relation": "is central to",
+                "target": "Season 4",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Bug subtitles.txt": {
+        "entities": [
+            {
+                "name": "Marie Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr. (Flynn White)",
+                "type": "Character"
+            },
+            {
+                "name": "Mineral Show",
+                "type": "Event"
+            },
+            {
+                "name": "Strip Club",
+                "type": "Event"
+            },
+            {
+                "name": "Vanilla Shake",
+                "type": "Event"
+            },
+            {
+                "name": "Drive-Through",
+                "type": "Location"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Marie Schrader",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "related to",
+                "target": "Walter Jr. (Flynn White)",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Walter Jr. (Flynn White)",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Mineral Show",
+                "season": 4
+            },
+            {
+                "source": "Walter Jr. (Flynn White)",
+                "relation": "participates in",
+                "target": "Mineral Show",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Drive-Through",
+                "season": 4
+            },
+            {
+                "source": "Walter Jr. (Flynn White)",
+                "relation": "visits",
+                "target": "Drive-Through",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "witnesses",
+                "target": "Vanilla Shake",
+                "season": 4
+            },
+            {
+                "source": "Walter Jr. (Flynn White)",
+                "relation": "witnesses",
+                "target": "Vanilla Shake",
+                "season": 4
+            },
+            {
+                "source": "Mineral Show",
+                "relation": "is central to",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Drive-Through",
+                "relation": "is central to",
+                "target": "Season 4",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Bullet Points subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Marie Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Family",
+                "type": "Event"
+            },
+            {
+                "name": "Robbery",
+                "type": "Event"
+            },
+            {
+                "name": "Thief",
+                "type": "Event"
+            },
+            {
+                "name": "Justification",
+                "type": "Event"
+            },
+            {
+                "name": "Casino",
+                "type": "Event"
+            },
+            {
+                "name": "Kelly Criterion",
+                "type": "Event"
+            },
+            {
+                "name": "Strategy",
+                "type": "Event"
+            },
+            {
+                "name": "Plan",
+                "type": "Event"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 4
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "causes",
+                "target": "Robbery",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "is",
+                "target": "Thief",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "causes",
+                "target": "Justification",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Casino",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "develops",
+                "target": "Strategy",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "uses",
+                "target": "Kelly Criterion",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "part of",
+                "target": "Plan",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "part of",
+                "target": "Plan",
+                "season": 4
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "part of",
+                "target": "Plan",
+                "season": 4
+            },
+            {
+                "source": "Plan",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Cornered subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Gale Boetticher",
+                "type": "Character"
+            },
+            {
+                "name": "Kids",
+                "type": "Character"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "married to",
+                "target": "Skyler White",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Kids",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Gale Boetticher",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Kids",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "causes",
+                "target": "Gale Boetticher's death",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "tells",
+                "target": "Hank Schrader",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "worries about",
+                "target": "Skyler White",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "worries about",
+                "target": "Walter White",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Crawl Space subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Factory Farm",
+                "type": "Location"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "concerned about",
+                "target": "Hank Schrader",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Factory Farm",
+                "season": 4
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "lives in",
+                "target": "Factory Farm",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "wants to visit",
+                "target": "Factory Farm",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "stalls",
+                "target": "Hank Schrader",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - End Times subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Marie Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Nelson Brey",
+                "type": "Character"
+            },
+            {
+                "name": "Hank's and Marie's House",
+                "type": "Location"
+            },
+            {
+                "name": "Protective Custody",
+                "type": "Event"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Hank Schrader",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Marie Schrader",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Hank Schrader",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Marie Schrader",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "related to",
+                "target": "Marie Schrader",
+                "season": 4
+            },
+            {
+                "source": "Nelson Brey",
+                "relation": "works with",
+                "target": "Hank Schrader",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "witnesses",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "witnesses",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "causes",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "participates in",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Nelson Brey",
+                "relation": "participates in",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "participates in",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "participates in",
+                "target": "Protective Custody",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Hank's and Marie's House",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "lives in",
+                "target": "Hank's and Marie's House",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "owns",
+                "target": "Hank's and Marie's House",
+                "season": 4
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "owns",
+                "target": "Hank's and Marie's House",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Face Off subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Gus Fring",
+                "type": "Character"
+            },
+            {
+                "name": "Hospital",
+                "type": "Location"
+            },
+            {
+                "name": "Gus's House",
+                "type": "Location"
+            },
+            {
+                "name": "Laundry",
+                "type": "Location"
+            },
+            {
+                "name": "Restaurant",
+                "type": "Location"
+            },
+            {
+                "name": "Factory Farm",
+                "type": "Location"
+            },
+            {
+                "name": "Albuquerque Police",
+                "type": "Organization"
+            },
+            {
+                "name": "Detective Kalanchoe",
+                "type": "Character"
+            },
+            {
+                "name": "Detective Munn",
+                "type": "Character"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "enemy of",
+                "target": "Gus Fring",
+                "season": 4
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "enemy of",
+                "target": "Gus Fring",
+                "season": 4
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "brings bomb to",
+                "target": "Hospital",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "owns",
+                "target": "Gus's House",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "owns",
+                "target": "Laundry",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "owns",
+                "target": "Restaurant",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "owns",
+                "target": "Factory Farm",
+                "season": 4
+            },
+            {
+                "source": "Detective Kalanchoe",
+                "relation": "works with",
+                "target": "Detective Munn",
+                "season": 4
+            },
+            {
+                "source": "Detective Kalanchoe",
+                "relation": "part of",
+                "target": "Albuquerque Police",
+                "season": 4
+            },
+            {
+                "source": "Detective Munn",
+                "relation": "part of",
+                "target": "Albuquerque Police",
+                "season": 4
+            },
+            {
+                "source": "Detective Kalanchoe",
+                "relation": "wants to talk to",
+                "target": "Jesse Pinkman",
+                "season": 4
+            },
+            {
+                "source": "Detective Munn",
+                "relation": "wants to talk to",
+                "target": "Jesse Pinkman",
+                "season": 4
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Hospital",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Gus's House",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Laundry",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Restaurant",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Factory Farm",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Albuquerque Police",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Detective Kalanchoe",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Detective Munn",
+                "relation": "appears in",
+                "target": "Season 4",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Hermanos subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "DEA",
+                "type": "Organization"
+            },
+            {
+                "name": "FBI",
+                "type": "Organization"
+            },
+            {
+                "name": "APD",
+                "type": "Organization"
+            },
+            {
+                "name": "Mexican law enforcement",
+                "type": "Organization"
+            },
+            {
+                "name": "Assassin",
+                "type": "Character"
+            },
+            {
+                "name": "Gunmen",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White's family",
+                "type": "Character"
+            },
+            {
+                "name": "Nephews",
+                "type": "Character"
+            },
+            {
+                "name": "Hermanos",
+                "type": "Event"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "fears for",
+                "target": "Walter White's family",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "works with",
+                "target": "DEA",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "works with",
+                "target": "FBI",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "works with",
+                "target": "APD",
+                "season": 4
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "works with",
+                "target": "Mexican law enforcement",
+                "season": 4
+            },
+            {
+                "source": "Assassin",
+                "relation": "attacks",
+                "target": "Hank Schrader",
+                "season": 4
+            },
+            {
+                "source": "Gunmen",
+                "relation": "dies",
+                "target": "Scene",
+                "season": 4
+            },
+            {
+                "source": "Gunmen",
+                "relation": "dies",
+                "target": "Hospital",
+                "season": 4
+            },
+            {
+                "source": "Nephews",
+                "relation": "wants to kill",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Nephews",
+                "relation": "attacks",
+                "target": "Hank Schrader",
+                "season": 4
+            },
+            {
+                "source": "Hermanos",
+                "relation": "is central to",
+                "target": "Season 4",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Open House subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Car Wash",
+                "type": "Location"
+            },
+            {
+                "name": "Police",
+                "type": "Entity"
+            },
+            {
+                "name": "Drug Dealing",
+                "type": "Event"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "married to",
+                "target": "Skyler White",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "wants to talk about",
+                "target": "Car Wash",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Drug Dealing",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "wants to go to",
+                "target": "Police",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "wants to tell",
+                "target": "Drug Dealing",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "is central to",
+                "target": "Season 4",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "is central to",
+                "target": "Season 4",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Problem Dog subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Pavilion parking lot on University",
+                "type": "Location"
+            },
+            {
+                "name": "Car dealership",
+                "type": "Location"
+            },
+            {
+                "name": "Glenn",
+                "type": "Character"
+            },
+            {
+                "name": "Cab driver",
+                "type": "Character"
+            },
+            {
+                "name": "Airport",
+                "type": "Location"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "father of",
+                "target": "Walter Jr.",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Pavilion parking lot on University",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "calls",
+                "target": "Cab driver",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "talks to",
+                "target": "Glenn",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Car dealership",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Pavilion parking lot on University",
+                "season": 4
+            },
+            {
+                "source": "Pavilion parking lot on University",
+                "relation": "near",
+                "target": "Airport",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Salud subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Car",
+                "type": "Object"
+            },
+            {
+                "name": "House",
+                "type": "Location"
+            },
+            {
+                "name": "Birthday Surprise",
+                "type": "Event"
+            },
+            {
+                "name": "Season_4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "House",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "lives in",
+                "target": "House",
+                "season": 4
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "lives in",
+                "target": "House",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "married to",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Walter Jr.",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Walter Jr.",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "causes",
+                "target": "Birthday Surprise",
+                "season": 4
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "participates in",
+                "target": "Birthday Surprise",
+                "season": 4
+            },
+            {
+                "source": "Car",
+                "relation": "part of",
+                "target": "Birthday Surprise",
+                "season": 4
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "owns",
+                "target": "Car",
+                "season": 4
+            },
+            {
+                "source": "Season_4",
+                "relation": "develops",
+                "target": "Birthday Surprise",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Shotgun subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Saul Goodman",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Gus Fring",
+                "type": "Character"
+            },
+            {
+                "name": "White Family",
+                "type": "Character"
+            },
+            {
+                "name": "Taco Bell",
+                "type": "Location"
+            },
+            {
+                "name": "Gus Fring's Office",
+                "type": "Location"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Saul Goodman",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "married to",
+                "target": "Skyler White",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "business partner",
+                "target": "Jesse Pinkman",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Taco Bell",
+                "season": 4
+            },
+            {
+                "source": "Saul Goodman",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Saul Goodman",
+                "relation": "participates in",
+                "target": "Taco Bell",
+                "season": 4
+            },
+            {
+                "source": "Skyler White",
+                "relation": "part of",
+                "target": "White Family",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "part of",
+                "target": "White Family",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Gus Fring's Office",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "part of",
+                "target": "Gus Fring's Office",
+                "season": 4
+            }
+        ]
+    },
+    "Season_4 - Season_4 - Thirty-Eight Snub subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Mike Ehrmantraut",
+                "type": "Character"
+            },
+            {
+                "name": "Thirty-Eight Snub",
+                "type": "Event"
+            },
+            {
+                "name": "Season 4",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "advises",
+                "target": "Walter White",
+                "season": 4
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Thirty-Eight Snub",
+                "season": 4
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "participates in",
+                "target": "Thirty-Eight Snub",
+                "season": 4
+            },
+            {
+                "source": "Thirty-Eight Snub",
+                "relation": "is central to",
+                "target": "Season 4",
+                "season": 4
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Buyout subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "The Kid",
+                "type": "Character"
+            },
+            {
+                "name": "Dirt Bike",
+                "type": "Object"
+            },
+            {
+                "name": "Robbery",
+                "type": "Event"
+            },
+            {
+                "name": "Season_5A",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Robbery",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Robbery",
+                "season": 0
+            },
+            {
+                "source": "The Kid",
+                "relation": "witnesses",
+                "target": "Robbery",
+                "season": 0
+            },
+            {
+                "source": "The Kid",
+                "relation": "rides",
+                "target": "Dirt Bike",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "causes",
+                "target": "The Kid's death",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season_5A",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "appears in",
+                "target": "Season_5A",
+                "season": 0
+            },
+            {
+                "source": "The Kid",
+                "relation": "appears in",
+                "target": "Season_5A",
+                "season": 0
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Dead Freight subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Steve Gomez",
+                "type": "Character"
+            },
+            {
+                "name": "Season_5A",
+                "type": "Season"
+            },
+            {
+                "name": "Walt's new watch",
+                "type": "Event"
+            },
+            {
+                "name": "Walt's new car",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Hank Schrader",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Hank Schrader",
+                "season": 5
+            },
+            {
+                "source": "Steve Gomez",
+                "relation": "works with",
+                "target": "Hank Schrader",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season_5A",
+                "season": 5
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "appears in",
+                "target": "Season_5A",
+                "season": 5
+            },
+            {
+                "source": "Steve Gomez",
+                "relation": "appears in",
+                "target": "Season_5A",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "owns",
+                "target": "Walt's new watch",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "owns",
+                "target": "Walt's new car",
+                "season": 5
+            },
+            {
+                "source": "Walt's new watch",
+                "relation": "part of",
+                "target": "Season_5A",
+                "season": 5
+            },
+            {
+                "source": "Walt's new car",
+                "relation": "part of",
+                "target": "Season_5A",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Fifty-One subtitles.txt": {
+        "entities": [
+            {
+                "name": "Mechanic",
+                "type": "Character"
+            },
+            {
+                "name": "Customer",
+                "type": "Character"
+            },
+            {
+                "name": "Car",
+                "type": "Location"
+            },
+            {
+                "name": "Season_5A",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Mechanic",
+                "relation": "works with",
+                "target": "Customer",
+                "season": 0
+            },
+            {
+                "source": "Mechanic",
+                "relation": "visits",
+                "target": "Car",
+                "season": 0
+            },
+            {
+                "source": "Customer",
+                "relation": "owns",
+                "target": "Car",
+                "season": 0
+            },
+            {
+                "source": "Mechanic",
+                "relation": "participates in",
+                "target": "Car Repair",
+                "season": 0
+            },
+            {
+                "source": "Customer",
+                "relation": "participates in",
+                "target": "Car Repair",
+                "season": 0
+            },
+            {
+                "source": "Car Repair",
+                "relation": "occurs in",
+                "target": "Season_5A",
+                "season": 0
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Gliding Over All subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Saul Goodman",
+                "type": "Character"
+            },
+            {
+                "name": "Mike Ehrmantraut",
+                "type": "Character"
+            },
+            {
+                "name": "Gus Fring",
+                "type": "Character"
+            },
+            {
+                "name": "Walter Jr.",
+                "type": "Character"
+            },
+            {
+                "name": "Jesse's House",
+                "type": "Location"
+            },
+            {
+                "name": "Walter's House",
+                "type": "Location"
+            },
+            {
+                "name": "DEA Office",
+                "type": "Location"
+            },
+            {
+                "name": "Season 5A",
+                "type": "Season"
+            },
+            {
+                "name": "Gliding Over All",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Walter's House",
+                "season": 5
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "lives in",
+                "target": "Jesse's House",
+                "season": 5
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "works with",
+                "target": "DEA Office",
+                "season": 5
+            },
+            {
+                "source": "Skyler White",
+                "relation": "married to",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Saul Goodman",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Saul Goodman",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 5
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 5
+            },
+            {
+                "source": "Gus Fring",
+                "relation": "enemy of",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Walter Jr.",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 5
+            },
+            {
+                "source": "Gliding Over All",
+                "relation": "part of",
+                "target": "Season 5A",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Hazard Pay subtitles.txt": {
+        "entities": [
+            {
+                "name": "Dennis Markowski",
+                "type": "Character"
+            },
+            {
+                "name": "Dan",
+                "type": "Character"
+            },
+            {
+                "name": "Mike Ehrmantraut",
+                "type": "Character"
+            },
+            {
+                "name": "Chow",
+                "type": "Character"
+            },
+            {
+                "name": "Gus Fring",
+                "type": "Character"
+            },
+            {
+                "name": "Laundry",
+                "type": "Location"
+            },
+            {
+                "name": "Lab",
+                "type": "Location"
+            },
+            {
+                "name": "Feds",
+                "type": "Character"
+            },
+            {
+                "name": "Mike's Wife",
+                "type": "Character"
+            },
+            {
+                "name": "Hazard Pay",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Dan",
+                "relation": "works with",
+                "target": "Dennis Markowski",
+                "season": 5
+            },
+            {
+                "source": "Dennis Markowski",
+                "relation": "works with",
+                "target": "Dan",
+                "season": 5
+            },
+            {
+                "source": "Dennis Markowski",
+                "relation": "visits",
+                "target": "Laundry",
+                "season": 5
+            },
+            {
+                "source": "Dennis Markowski",
+                "relation": "visits",
+                "target": "Lab",
+                "season": 5
+            },
+            {
+                "source": "Dennis Markowski",
+                "relation": "participates in",
+                "target": "Hazard Pay",
+                "season": 5
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "works with",
+                "target": "Dennis Markowski",
+                "season": 5
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "works with",
+                "target": "Gus Fring",
+                "season": 5
+            },
+            {
+                "source": "Chow",
+                "relation": "enemy of",
+                "target": "Mike Ehrmantraut",
+                "season": 5
+            },
+            {
+                "source": "Feds",
+                "relation": "causes",
+                "target": "Hazard Pay",
+                "season": 5
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "related to",
+                "target": "Mike's Wife",
+                "season": 5
+            },
+            {
+                "source": "Mike's Wife",
+                "relation": "related to",
+                "target": "Mike Ehrmantraut",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Live Free or Die subtitles.txt": {
+        "entities": [
+            {
+                "name": "Denny's",
+                "type": "Location"
+            },
+            {
+                "name": "New Hampshire",
+                "type": "Location"
+            },
+            {
+                "name": "California",
+                "type": "Location"
+            },
+            {
+                "name": "Boston",
+                "type": "Location"
+            },
+            {
+                "name": "Swampscott",
+                "type": "Location"
+            },
+            {
+                "name": "Lucy",
+                "type": "Character"
+            },
+            {
+                "name": "Birthday Meal",
+                "type": "Event"
+            },
+            {
+                "name": "Instruction Manual",
+                "type": "Event"
+            },
+            {
+                "name": "Season_5A",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Denny's",
+                "relation": "offers",
+                "target": "Birthday Meal",
+                "season": 0
+            },
+            {
+                "source": "Lucy",
+                "relation": "works with",
+                "target": "Denny's",
+                "season": 0
+            },
+            {
+                "source": "New Hampshire",
+                "relation": "is part of",
+                "target": "Boston",
+                "season": 0
+            },
+            {
+                "source": "Swampscott",
+                "relation": "is part of",
+                "target": "Boston",
+                "season": 0
+            },
+            {
+                "source": "Swampscott",
+                "relation": "is part of",
+                "target": "New Hampshire",
+                "season": 0
+            },
+            {
+                "source": "California",
+                "relation": "visits",
+                "target": "New Hampshire",
+                "season": 0
+            },
+            {
+                "source": "Instruction Manual",
+                "relation": "appears in",
+                "target": "Season_5A",
+                "season": 0
+            },
+            {
+                "source": "Season_5A",
+                "relation": "develops",
+                "target": "Instruction Manual",
+                "season": 0
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Madrigal subtitles.txt": {
+        "entities": [
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Lab",
+                "type": "Location"
+            },
+            {
+                "name": "Jesse's House",
+                "type": "Location"
+            },
+            {
+                "name": "Jesse's Car",
+                "type": "Location"
+            },
+            {
+                "name": "Street",
+                "type": "Location"
+            },
+            {
+                "name": "Cigarette",
+                "type": "Event"
+            },
+            {
+                "name": "Season 5A",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Jesse Pinkman",
+                "relation": "worries about",
+                "target": "Cigarette",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "suggests to",
+                "target": "Jesse Pinkman",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "searches in",
+                "target": "Lab",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "searches in",
+                "target": "Jesse's House",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "searches in",
+                "target": "Jesse's Car",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "worries about",
+                "target": "Street",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "appears in",
+                "target": "Season 5A",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season 5A",
+                "season": 0
+            }
+        ]
+    },
+    "Season_5A - Season_5A - Say My Name subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Mike Ehrmantraut",
+                "type": "Character"
+            },
+            {
+                "name": "Methylamine",
+                "type": "Event"
+            },
+            {
+                "name": "Season 5A",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Mike Ehrmantraut",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "causes",
+                "target": "Methylamine",
+                "season": 5
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "participates in",
+                "target": "Methylamine",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season 5A",
+                "season": 5
+            },
+            {
+                "source": "Mike Ehrmantraut",
+                "relation": "appears in",
+                "target": "Season 5A",
+                "season": 5
+            },
+            {
+                "source": "Methylamine",
+                "relation": "is central to",
+                "target": "Season 5A",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5B - Season_5B - Blood Money subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Marie Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Carol",
+                "type": "Character"
+            },
+            {
+                "name": "Holly",
+                "type": "Character"
+            },
+            {
+                "name": "Season 5B",
+                "type": "Season"
+            },
+            {
+                "name": "Blood Money",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "related to",
+                "target": "Skyler White",
+                "season": 5
+            },
+            {
+                "source": "Skyler White",
+                "relation": "related to",
+                "target": "Marie Schrader",
+                "season": 5
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "related to",
+                "target": "Hank Schrader",
+                "season": 5
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "related to",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Marie Schrader",
+                "relation": "visits",
+                "target": "Skyler White",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Skyler White",
+                "season": 5
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "visits",
+                "target": "Skyler White",
+                "season": 5
+            },
+            {
+                "source": "Carol",
+                "relation": "appears in",
+                "target": "Blood Money",
+                "season": 5
+            },
+            {
+                "source": "Holly",
+                "relation": "appears in",
+                "target": "Blood Money",
+                "season": 5
+            },
+            {
+                "source": "Blood Money",
+                "relation": "part of",
+                "target": "Season 5B",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5B - Season_5B - Confessions subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Declan",
+                "type": "Character"
+            },
+            {
+                "name": "Todd Alquist",
+                "type": "Character"
+            },
+            {
+                "name": "Train",
+                "type": "Location"
+            },
+            {
+                "name": "Train Crossing",
+                "type": "Location"
+            },
+            {
+                "name": "Engineer",
+                "type": "Character"
+            },
+            {
+                "name": "Season_5B",
+                "type": "Season"
+            },
+            {
+                "name": "Change in Management",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Todd Alquist",
+                "relation": "calls",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Todd Alquist",
+                "relation": "works with",
+                "target": "Declan",
+                "season": 5
+            },
+            {
+                "source": "Todd Alquist",
+                "relation": "participates in",
+                "target": "Change in Management",
+                "season": 5
+            },
+            {
+                "source": "Todd Alquist",
+                "relation": "visits",
+                "target": "Train",
+                "season": 5
+            },
+            {
+                "source": "Todd Alquist",
+                "relation": "visits",
+                "target": "Train Crossing",
+                "season": 5
+            },
+            {
+                "source": "Engineer",
+                "relation": "works with",
+                "target": "Train",
+                "season": 5
+            },
+            {
+                "source": "Engineer",
+                "relation": "is smooth-talked by",
+                "target": "Todd Alquist",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5B - Season_5B - Felina subtitles.txt": {
+        "entities": [
+            {
+                "name": "David Linn",
+                "type": "Character"
+            },
+            {
+                "name": "Susan",
+                "type": "Character"
+            },
+            {
+                "name": "Mr. Schwartz",
+                "type": "Character"
+            },
+            {
+                "name": "Mrs. Schwartz",
+                "type": "Character"
+            },
+            {
+                "name": "The New York Times",
+                "type": "Organization"
+            },
+            {
+                "name": "Upper Canyon Road",
+                "type": "Location"
+            },
+            {
+                "name": "Tesuque",
+                "type": "Location"
+            },
+            {
+                "name": "Opera House",
+                "type": "Location"
+            },
+            {
+                "name": "Felina",
+                "type": "Event"
+            },
+            {
+                "name": "Season_5B",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "David Linn",
+                "relation": "works with",
+                "target": "The New York Times",
+                "season": 5
+            },
+            {
+                "source": "David Linn",
+                "relation": "calls",
+                "target": "Susan",
+                "season": 5
+            },
+            {
+                "source": "David Linn",
+                "relation": "wants to interview",
+                "target": "Mr. Schwartz",
+                "season": 5
+            },
+            {
+                "source": "David Linn",
+                "relation": "wants to interview",
+                "target": "Mrs. Schwartz",
+                "season": 5
+            },
+            {
+                "source": "Mr. Schwartz",
+                "relation": "lives in",
+                "target": "Tesuque",
+                "season": 5
+            },
+            {
+                "source": "Mrs. Schwartz",
+                "relation": "lives in",
+                "target": "Tesuque",
+                "season": 5
+            },
+            {
+                "source": "Mr. Schwartz",
+                "relation": "married to",
+                "target": "Mrs. Schwartz",
+                "season": 5
+            },
+            {
+                "source": "David Linn",
+                "relation": "wants a photo of",
+                "target": "Mr. Schwartz",
+                "season": 5
+            },
+            {
+                "source": "David Linn",
+                "relation": "wants a photo of",
+                "target": "Mrs. Schwartz",
+                "season": 5
+            },
+            {
+                "source": "Tesuque",
+                "relation": "near",
+                "target": "Opera House",
+                "season": 5
+            },
+            {
+                "source": "Felina",
+                "relation": "concludes",
+                "target": "Season_5B",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5B - Season_5B - Granite State subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Ed Galbraith",
+                "type": "Character"
+            },
+            {
+                "name": "Hank Schrader",
+                "type": "Character"
+            },
+            {
+                "name": "Steve Gomez",
+                "type": "Character"
+            },
+            {
+                "name": "Nebraska",
+                "type": "Location"
+            },
+            {
+                "name": "Vacuum Cleaner Repair Store",
+                "type": "Location"
+            },
+            {
+                "name": "Bunk Mate",
+                "type": "Character"
+            },
+            {
+                "name": "Season_5B",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "visits",
+                "target": "Vacuum Cleaner Repair Store",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "lives in",
+                "target": "Nebraska",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Ed Galbraith",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "enemy of",
+                "target": "Hank Schrader",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "enemy of",
+                "target": "Steve Gomez",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "has",
+                "target": "Bunk Mate",
+                "season": 5
+            },
+            {
+                "source": "Ed Galbraith",
+                "relation": "owns",
+                "target": "Vacuum Cleaner Repair Store",
+                "season": 5
+            },
+            {
+                "source": "Ed Galbraith",
+                "relation": "helps",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Hank Schrader",
+                "relation": "targets",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Steve Gomez",
+                "relation": "targets",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Bunk Mate",
+                "relation": "lives with",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Vacuum Cleaner Repair Store",
+                "relation": "is part of",
+                "target": "Nebraska",
+                "season": 5
+            },
+            {
+                "source": "Season_5B",
+                "relation": "develops",
+                "target": "Walter White's new identity",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5B - Season_5B - Ozymandias subtitles.txt": {
+        "entities": [
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Bogdan",
+                "type": "Character"
+            },
+            {
+                "name": "Skyler White",
+                "type": "Character"
+            },
+            {
+                "name": "Season 5B",
+                "type": "Season"
+            },
+            {
+                "name": "Ozymandias",
+                "type": "Event"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Jesse Pinkman",
+                "relation": "works with",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Bogdan",
+                "relation": "works with",
+                "target": "Jesse Pinkman",
+                "season": 5
+            },
+            {
+                "source": "Bogdan",
+                "relation": "causes",
+                "target": "Jesse Pinkman",
+                "season": 5
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "participates in",
+                "target": "Ozymandias",
+                "season": 5
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Ozymandias",
+                "season": 5
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "calls",
+                "target": "Skyler White",
+                "season": 5
+            },
+            {
+                "source": "Skyler White",
+                "relation": "married to",
+                "target": "Walter White",
+                "season": 5
+            },
+            {
+                "source": "Ozymandias",
+                "relation": "is central to",
+                "target": "Season 5B",
+                "season": 5
+            }
+        ]
+    },
+    "Season_5B - Season_5B - Rabid Dog subtitles.txt": {
+        "entities": [
+            {
+                "name": "Jesse Pinkman",
+                "type": "Character"
+            },
+            {
+                "name": "Huell Babineaux",
+                "type": "Character"
+            },
+            {
+                "name": "Saul Goodman",
+                "type": "Character"
+            },
+            {
+                "name": "Kuby",
+                "type": "Character"
+            },
+            {
+                "name": "High School",
+                "type": "Location"
+            },
+            {
+                "name": "Car Wash",
+                "type": "Location"
+            },
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Season 5B",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Jesse Pinkman",
+                "relation": "witnesses",
+                "target": "High School",
+                "season": 0
+            },
+            {
+                "source": "Huell Babineaux",
+                "relation": "works with",
+                "target": "Saul Goodman",
+                "season": 0
+            },
+            {
+                "source": "Huell Babineaux",
+                "relation": "visits",
+                "target": "High School",
+                "season": 0
+            },
+            {
+                "source": "Kuby",
+                "relation": "works with",
+                "target": "Saul Goodman",
+                "season": 0
+            },
+            {
+                "source": "Kuby",
+                "relation": "visits",
+                "target": "Car Wash",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "calls",
+                "target": "Jesse Pinkman",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "wants to fix",
+                "target": "Jesse Pinkman",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "appears in",
+                "target": "Season 5B",
+                "season": 0
+            },
+            {
+                "source": "Jesse Pinkman",
+                "relation": "appears in",
+                "target": "Season 5B",
+                "season": 0
+            },
+            {
+                "source": "Huell Babineaux",
+                "relation": "appears in",
+                "target": "Season 5B",
+                "season": 0
+            },
+            {
+                "source": "Kuby",
+                "relation": "appears in",
+                "target": "Season 5B",
+                "season": 0
+            }
+        ]
+    },
+    "Season_5B - Season_5B - To'hajiilee subtitles.txt": {
+        "entities": [
+            {
+                "name": "Walter White",
+                "type": "Character"
+            },
+            {
+                "name": "Jack Welker",
+                "type": "Character"
+            },
+            {
+                "name": "Todd Alquist",
+                "type": "Character"
+            },
+            {
+                "name": "Methamphetamine Production",
+                "type": "Event"
+            },
+            {
+                "name": "To'hajiilee",
+                "type": "Location"
+            },
+            {
+                "name": "Season_5B",
+                "type": "Season"
+            }
+        ],
+        "relationships": [
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Todd Alquist",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "works with",
+                "target": "Jack Welker",
+                "season": 0
+            },
+            {
+                "source": "Jack Welker",
+                "relation": "related to",
+                "target": "Todd Alquist",
+                "season": 0
+            },
+            {
+                "source": "Todd Alquist",
+                "relation": "works with",
+                "target": "Jack Welker",
+                "season": 0
+            },
+            {
+                "source": "Todd Alquist",
+                "relation": "participates in",
+                "target": "Methamphetamine Production",
+                "season": 0
+            },
+            {
+                "source": "Jack Welker",
+                "relation": "participates in",
+                "target": "Methamphetamine Production",
+                "season": 0
+            },
+            {
+                "source": "Walter White",
+                "relation": "participates in",
+                "target": "Methamphetamine Production",
+                "season": 0
+            },
+            {
+                "source": "Methamphetamine Production",
+                "relation": "occurs in",
+                "target": "To'hajiilee",
+                "season": 0
+            },
+            {
+                "source": "To'hajiilee",
+                "relation": "appears in",
+                "target": "Season_5B",
+                "season": 0
+            }
+        ]
+    }
+}
