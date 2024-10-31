@@ -1,3 +1,7 @@
+
+### Projectstructure 
+
+```bash
 .
 ├── saved_model/                             # Directory for saved models
 ├── sync/                                    # Sync-related files
@@ -14,3 +18,12 @@
 ├── M2_LLM_Data_Fetch_and_Processing_(JSON_Creation).ipynb # Data fetching and processing notebook
 ├── M2_Main_Network_Analysis_and_Text_Classification.ipynb # Main analysis and classification notebook
 └── M2_Model_Train.ipynb                     # Model training notebook
+```
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/breaking-bad-analysis.git
+   cd breaking-bad-analysis
+```
