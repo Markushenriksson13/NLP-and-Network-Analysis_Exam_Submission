@@ -25,7 +25,6 @@ Notebook descriptions:
 
 ### 🖊️ ⚙️ M2_LLM_Data_Fetch_and_Processing_(JSON_Creation).ipynb 📨
 This notebook leverages Large Language Models (LLMs) - to fetch the dialogue (subtitles) of the TV series *Breaking Bad* from the Movie and TV-show wiki: *Fandom.com* and extract relationships between characters, locations, events & season number.
-Here's a breakdown of the process:
 
 #### 1. Data Acquisition
 
@@ -46,9 +45,8 @@ Here's a breakdown of the process:
 - **JSON Output**: All the LLM-processed episode data is saved into a single JSON file named "breaking_bad_analysisV2.json".
 - **Summary**: A summary indicating the number of processed episodes is displayed to the user along with failed episodes (if it unlikely would occur).
 
-This notebook trains a SetFit model to classify relationships between characters in the TV series Breaking Bad.
-
 ### 🧮 M2_Model_Train.ipynb
+This notebook trains a SetFit model to classify relationships between characters in the TV series Breaking Bad.
 #### Functionality
 
 - Reads data from a JSON file (`breaking_bad_analysisV2.json`) generated in a previous notebook (`M2_LLM_Data_Fetch_and_Processing.ipynb`).
