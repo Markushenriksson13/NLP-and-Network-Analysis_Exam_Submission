@@ -1,5 +1,7 @@
 
-## Breaking Bad NLP & Network Analysis 🎯
+## 🔬Breaking Bad NLP & Network Analysis 🎯
+ > YEAH, SCIENCE Mr. White!
+
 Welcome to this Breaking Bad Network Analysis project! 
 This repository contains various notebooks and data files for analyzing the Network of Breaking Bad series 
 The project uses LLM (TogetherAPI) for data processing and SetFit (Local) machine learning for text classification of characters.
@@ -22,7 +24,7 @@ The project uses LLM (TogetherAPI) for data processing and SetFit (Local) machin
 Notebook descriptions:
 
 ### 🖊️ ⚙️ M2_LLM_Data_Fetch_and_Processing_(JSON_Creation).ipynb 📨
-This notebook leverages Large Language Models (LLMs) - to fetch the dialogue (subtitles) of the TV series *Breaking Bad* from the Wikipedia: *Fandom.com* and extract relationships between characters, locations, events & season number.
+This notebook leverages Large Language Models (LLMs) - to fetch the dialogue (subtitles) of the TV series *Breaking Bad* from the Movie and TV-show wiki: *Fandom.com* and extract relationships between characters, locations, events & season number.
 Here's a breakdown of the process:
 
 #### 1. Data Acquisition
@@ -32,12 +34,12 @@ Here's a breakdown of the process:
 
 #### 2. Context and Prompt Creation
 
-- **Wikipedia Summary**: The notebook utilizes the Wikipedia article "List of characters in the Breaking Bad franchise" to create a summarized context of key characters and their relationships using the LLM: *meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo*. This summary is used as background knowledge for the LLM processing of the subtitles (dialogue in the TV-show).
+- **Wikipedia Summary**: The notebook utilizes the Wikipedia article "List of characters in the Breaking Bad franchise" to create a summarized context of key characters and their relationships using the LLM: `meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo`. This summary is used as background knowledge for the LLM processing of the subtitles (dialogue in the TV-show).
 - **LLM Prompts**: System prompts are  defined for the LLM. These prompts guide its analysis, ensuring that the extracted information follows a predefined JSON schema for representing relationships.
 
 #### 3. LLM Processing, Extraction & Output
 
-- **Episode Analysis**: The LLM (*Qwen/Qwen2.5-72B-Instruct-Turbo*) iterates through each episode's subtitle file. The content of the subtitles, along with details like episode name and season number, are fed to the LLM as prompts.
+- **Episode Analysis**: The LLM (`Qwen/Qwen2.5-72B-Instruct-Turbo`) iterates through each episode's subtitle file. The content of the subtitles, along with details like episode name and season number, are fed to the LLM as prompts.
 - **Entity and Relationship Extraction**: The LLM analyzes the script and extracts entities (characters, locations, events). It then identifies relationships between these entities using a set of predefined relationship types (e.g., "friend of," "enemy of," "works with").
 - **JSON Structuring**: The extracted information is structured into a JSON format, for easy storage and further analysis...
 
@@ -104,9 +106,9 @@ The notebook performs the following tasks:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/breaking-bad-analysis.git
-   cd breaking-bad-analysis
+   git clone https://github.com/Markushenriksson13/NLP-and-Network-Analysis_Exam_Submission.git
    ```
-2. **Run in your desired Jupyter Enviroment**
+2. **Open/Run in your desired Jupyter Enviroment**
+   - If ran in Colab make sure to replace #'s in the given notebook
 
 ##
