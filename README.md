@@ -45,9 +45,8 @@ This notebook leverages Large Language Models (LLMs) - to fetch the dialogue (su
 - **JSON Output**: All the LLM-processed episode data is saved into a single JSON file named "breaking_bad_analysisV2.json".
 - **Summary**: A summary indicating the number of processed episodes is displayed to the user along with failed episodes (if it unlikely would occur).
 
-This notebook trains a SetFit model to classify relationships between characters in the TV series Breaking Bad.
-
 ### 🧮 M2_Model_Train.ipynb
+This notebook trains a SetFit model to classify relationships between characters in the TV series Breaking Bad.
 #### Functionality
 
 - Reads data from a JSON file (`breaking_bad_analysisV2.json`) generated in a previous notebook (`M2_LLM_Data_Fetch_and_Processing.ipynb`).
