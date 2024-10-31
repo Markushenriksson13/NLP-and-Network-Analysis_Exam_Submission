@@ -106,10 +106,9 @@ The notebook performs the following tasks:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/breaking-bad-analysis.git
-   cd breaking-bad-analysis
+   git clone https://github.com/Markushenriksson13/NLP-and-Network-Analysis_Exam_Submission.git
    ```
-2. **Run in your desired Jupyter Enviroment**
+2. **Open/Run in your desired Jupyter Enviroment**
    - If ran in Colab make sure to replace #'s in the given notebook
 
 ##
