@@ -4,19 +4,20 @@ Welcome to this Breaking Bad Network Analysis project!
 This repository contains various notebooks and data files for analyzing the Network of Breaking Bad series 
 The project uses LLM (TogetherAPI) for data processing and SetFit (Local) machine learning for text classification of characters.
 
-#### ℹ️ This repository consists of 3 different notebooks - They can all 3 be ran independently
+### ℹ️ This repository consists of 3 different notebooks - They can all 3 be ran independently
+#### ✅ Main Network analysis and classification notebook (imports already pre-saved data and models generated from the other two notebooks)
 ```bash
 ├── M2_Main_Network_Analysis_and_Text_Classification.ipynb
 ```
-#### ✅ Main Network analysis and classification notebook (imports already pre-saved data and models generated from the other two notebooks)
+##### ⚙️ Data fetching and LLM-processing notebook
 ```bash
 ├── M2_LLM_Data_Fetch_and_Processing_(JSON_Creation).ipynb
 ```
-##### ⚙️ Data fetching and LLM-processing notebook
+##### 🧮 SetFit Model training notebook for Text Classification 
 ```bash
 └── M2_Model_Train.ipynb
 ```                                      
-##### 🧮 SetFit Model training notebook for Text Classification 
+
 
 Notebook descriptions:
 
