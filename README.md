@@ -107,11 +107,6 @@ The notebook performs the following tasks:
    git clone https://github.com/your-username/breaking-bad-analysis.git
    cd breaking-bad-analysis
    ```
-2. **Required packages**
-- Required packages listed in `requirements.txt` (note: minimum 3 packages required)
-- Gets installed in beginning of each notebook
-  ```bash
-   !pip install -r requirements.txt -q
-   ```
+2. **Run in your desired Jupyter Enviroment**
 
 ##
