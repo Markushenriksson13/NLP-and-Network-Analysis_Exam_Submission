@@ -1,5 +1,7 @@
 
-## Breaking Bad NLP & Network Analysis 🎯
+## 🔬Breaking Bad NLP & Network Analysis 🎯
+ > YEAH, SCIENCE Mr. White!
+
 Welcome to this Breaking Bad Network Analysis project! 
 This repository contains various notebooks and data files for analyzing the Network of Breaking Bad series 
 The project uses LLM (TogetherAPI) for data processing and SetFit (Local) machine learning for text classification of characters.
