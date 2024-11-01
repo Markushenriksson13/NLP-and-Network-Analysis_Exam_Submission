@@ -21,4 +21,4 @@ torch
 transformers
 gradio
 requests
-splitfile
+filesplit
